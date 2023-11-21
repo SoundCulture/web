@@ -1,0 +1,45 @@
+
+.fondo{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0
+
+}
+#Contenido img{
+	width: 1000px;
+	height: auto;
+}
+#Contenido h2{
+	margin-top: 180px;
+	position: relative;
+	font-family: 'Poppins',sans-serif;
+	color: white;
+	font-size: 35px;
+	text-shadow: 2px 2px 2px  black;
+
+}
+#Contenido h4{
+	text-shadow: 3px;
+	position: relative;
+	font-family: 'Calibri',sans-serif;
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px black;
+
+}
+footer{
+	background-color: #1C2833;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	
+}
+a{
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}

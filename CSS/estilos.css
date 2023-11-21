@@ -1,0 +1,51 @@
+@font-face{
+	font-family: personalizada;
+	src: url('../Fuentes/LEMONMILK-Medium.otf') format('opentype');
+}
+
+body{
+	background: #1C2833;
+}
+
+img{
+	width: 60px;
+	height: 30px;
+}
+ 
+h1{
+	font-family: personalizada;
+	background: -webkit-linear-gradient(left top, #FF0080, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#menu ul li{
+	margin-top: 10px;
+	float: right;
+}
+#menu ul{
+    list-style: none;
+    margin: 3px;
+    padding: 3px;
+    font-family: personalizada;
+    font-color: #f4d091;
+}
+#menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 10px 10px 10px;
+    margin: 2px;
+}
+#menu ul li{
+    background-color:  #1C2833;
+}
+#menu ul li a:hover {
+	margin-top: 1px;
+	color: #f6b9a7;
+    font-size: 18px;
+}
